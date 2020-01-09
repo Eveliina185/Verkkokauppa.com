@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200109 21:24:01.787" generator="Robot 3.1.2 (Python 2.7.17 on darwin)">
+<suite source="/Users/nguyentung/OneDrive - Laurea-ammattikorkeakoulu/Verkkokauppa2/tests/test1.robot" id="s1" name="Test1">
+<test id="s1-t1" name="User must log in to check out">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.verkkokauppa.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200109 21:24:02.138" level="INFO">Opening browser 'chrome' to base url 'https://www.verkkokauppa.com'.</msg>
+<status status="PASS" endtime="20200109 21:24:09.273" starttime="20200109 21:24:02.138"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200109 21:24:09.458" starttime="20200109 21:24:09.274"></status>
+</kw>
+<doc>This is a test to check</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20200109 21:24:09.459" critical="yes" starttime="20200109 21:24:02.137"></status>
+</test>
+<doc>This is a basic test</doc>
+<status status="PASS" endtime="20200109 21:24:09.463" starttime="20200109 21:24:01.790"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test1" pass="1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
